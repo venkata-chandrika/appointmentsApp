@@ -76,7 +76,7 @@ class Appointments extends Component {
   }
 
   render() {
-    const {isStarBtnClicked} = this.state
+    const {title, date, isStarBtnClicked} = this.state
     const starClassName = isStarBtnClicked ? 'star-filled-btn' : 'btn-starred'
     const filteredList = this.getFilteredAppointmentList()
     return (
@@ -91,6 +91,7 @@ class Appointments extends Component {
                 className="input"
                 type="text"
                 id="titleInput"
+                value={title}
                 onChange={this.titleInput}
               />
               <label htmlFor="dateInput">DATE</label>
@@ -100,6 +101,7 @@ class Appointments extends Component {
                 id="dateInput"
                 className="input"
                 onChange={this.dateInput}
+                value={date}
               />
               <button type="submit" className="button">
                 Add
