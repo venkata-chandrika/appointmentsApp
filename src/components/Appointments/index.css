@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.appointment {
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  min-height: 60vh;
+}
+.app-img-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  width: 90%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.button {
+  padding: 20px;
+  width: 100px;
+}
+.header-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.star-filled-btn {
+  background-color: #8b5cf6;
+}
+.btn-starred {
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+}
+.btn {
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+.filtered-list-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .filtered-list-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .image {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .form {
+    width: 50%;
+  }
+  .image {
+    width: 300px;
+  }
+}
