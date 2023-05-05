@@ -118,7 +118,7 @@ class Appointments extends Component {
             <h1>Appointments</h1>
             <button
               type="button"
-              className={`{btn ${starClassName}}`}
+              className={`btn ${starClassName}`}
               onClick={this.onClickStarBtn}
             >
               Starred

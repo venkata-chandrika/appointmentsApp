@@ -33,6 +33,7 @@
 .button {
   padding: 20px;
   width: 100px;
+  background-color: blueviolet;
 }
 .header-container {
   display: flex;
@@ -40,19 +41,22 @@
   justify-content: space-between;
 }
 .star-filled-btn {
+  color: #ffffff;
   background-color: #8b5cf6;
+  border-style: none;
 }
 .btn-starred {
+  color: #8b5cf6;
   border: 1px solid #8b5cf6;
   background-color: transparent;
 }
 .btn {
-  border-radius: 15px;
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 10px;
-  font-size: 16px;
+  border-radius: 25px;
+  padding-left: 30px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 30px;
+  font-size: 14px;
 }
 .filtered-list-container {
   padding: 20px;
